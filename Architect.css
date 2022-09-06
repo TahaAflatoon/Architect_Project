@@ -1,0 +1,295 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    src: url('./Fonts/Verdana/verdana.ttf');
+}
+:root {
+    --white: #fff;
+    --white2: #f3f3f5;
+    --white3: #cfd7e1;
+    --black: #000;
+    --black2: #333;
+}
+
+/* CSS */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header */
+.header {
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    box-shadow: 0 0 5px var(--white3);
+    background-color: var(--white);
+}
+/* header links */
+.links_list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+.title {
+    margin: 0 auto 0 0;
+}
+.title h1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.links_list a {
+    display: inline-block;
+    padding: 5px 20px;
+    margin:  7.5px 0 0;
+    color: var(--black);
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.links_list a:hover {
+    background-color: var(--white3);
+}
+/* model */
+.architect {
+    width: 100%;
+    height: 95vh;
+    color: var(--white);
+    background: url('./Images/architect.jpg') center center/cover;
+    position: relative;
+}
+.architect p {
+    font-size: 30pt;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.architect p span {
+    padding: 10px 0 10px 10px;
+    background-color: var(--black);
+    opacity: 0.8;
+}
+/* main */
+main {
+    padding: 0 2rem;
+}
+/* projects */
+.projects, .about {
+    width: 100%;
+    height: auto;
+    background-color: var(--white);
+    color: var(--black);
+}
+.projects {
+    margin: 2em 0 1em;
+}
+.about {
+    margin: 1em 0 2em;
+}
+.houses_list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.houses_list li {
+    width: auto;
+    height: auto;
+    margin: 0.5rem 0;
+    position: relative;
+}
+.houses_list img {
+    width: 100%;
+    height: 200px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.type {
+    position: absolute;
+    padding: 0.5rem 0.5rem;
+    color: var(--white);
+    background-color: var(--black);
+    top: 0;
+    left: 0;
+}
+.images {
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.houses_list li:hover .images {
+    opacity: 0.3;
+}
+.houses_list li:hover .buy {
+    opacity: 1;
+}
+/* buy button */
+.buy {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.buy a {
+    color: var(--white);
+    background-color: var(--black);
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 2.5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    -ms-border-radius: 2.5px;
+    -o-border-radius: 2.5px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.buy a:hover {
+    background-color: var(--black2);
+}
+/* about / people */
+.people {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.about_text {
+    padding: 1em 0 2em;
+}
+.people li {
+    width: 22.5%;
+    height: auto;
+}
+/* figures */
+.figures img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 2.5px;
+    border-top-right-radius: 2.5px;
+}
+.figures_caption h2 {
+    padding: 1rem 0;
+    font-size: 17.5pt;
+}
+.figures_caption p {
+    padding: 2em 0;
+}
+.figures_caption span {
+    opacity: 0.8;
+}
+/* contact */
+.contact {
+    width: 100%;
+    text-align: center;
+    padding: 0.25rem 0;
+    background-color: var(--black2);
+    color: var(--white);
+    display: block;
+    text-decoration: none;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.contact:hover {
+    background-color: var(--white3);
+    color: var(--black);
+}
+/* form */
+.form {
+    width: 100%;
+    height: auto;
+    color: var(--black);
+}
+.inputs {
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    border: 1px solid var(--white3);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0.5rem 0;
+}
+.inputs:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--black2);
+}
+.form_btn {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    border: none;
+    margin: 1rem 0;
+}
+.form_btn:hover {
+    background-color: var(--white3);
+    color: var(--black2);
+}
+#fullname {
+    background: var(--white) url('./Images/person-30.png') no-repeat 5px 5px;
+}
+#email {
+    background: var(--white) url('./Images/email-30.png') no-repeat 5px 5px;
+}
+#subject {
+    background: var(--white) url('./Images/topic-30.png') no-repeat 5px 5px;
+}
+#comment {
+    background: var(--white) url('./Images/message-30.png') no-repeat 5px 5px;
+}
+/* map */
+.map {
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+/* footer */
+.footer {
+    width: 100%;
+    padding: 2em 0;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+}

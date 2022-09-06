@@ -1,0 +1,484 @@
+/* Responsive */
+/* Mobile (small) */
+@media screen and (min-width:320px) and (max-width:374px) {
+    /* main */
+    main {
+        padding: 0 1.75rem;
+    }
+    /* header */
+    .links_list {
+        justify-content: center;
+    }
+    .sections_link {
+        display: none;
+    }
+    .title {
+        margin: 0;
+    }
+    .links_list a:hover {
+        background-color: var(--white);
+    }
+    /* model */
+    .architect p {
+        font-size: 20pt;
+        left: 20%;
+        top: 50%;
+    }
+    /* projects */
+    .projects h3 {
+        text-align: center;
+    }
+    .houses_list li {
+        box-shadow: 0 0 5px var(--black);
+    }
+    .houses_list li:hover .images {
+        opacity: 1;
+    }
+    .type {
+        padding: 0.25rem 0.5rem;
+    }
+    .buy {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+    .buy a {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    /* about */
+    .about {
+        margin: 2em 0 2em;
+    }
+    .about h3 {
+        text-align: center;
+    }
+    .about_text {
+        padding: 0.5em 0 0;
+    }
+    .about_text, .figures_caption {
+        text-align: center;
+    }
+    .people li {
+        width: 100%;
+        height: auto;
+        margin: 2em 0 0;
+    }
+    /* form */
+    .form {
+        text-align: center;
+    }
+    .inputs {
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+    #fullname, #email, #subject, #comment {
+        background: var(--white);
+    }
+    /* footer */
+    .footer {
+        padding: 1rem 0;
+    }
+}
+
+/* Mobile (medium) */
+@media screen and (min-width:375px) and (max-width:424px) {
+    /* main */
+    main {
+        padding: 0 2rem;
+    }
+    /* header */
+    .links_list {
+        justify-content: center;
+    }
+    .sections_link {
+        display: none;
+    }
+    .title {
+        margin: 0;
+    }
+    .links_list a:hover {
+        background-color: var(--white);
+    }
+    /* model */
+    .architect p {
+        font-size: 20pt;
+        left: 25%;
+        top: 50%;
+    }
+    /* projects */
+    .projects h3 {
+        text-align: center;
+    }
+    .houses_list li {
+        box-shadow: 0 0 5px var(--black);
+        width: 100%;
+    }
+    .houses_list li:hover .images {
+        opacity: 1;
+    }
+    .type {
+        padding: 0.25rem 0.5rem;
+    }
+    .buy {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+    .buy a {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    /* about */
+    .about {
+        margin: 2em 0 2em;
+    }
+    .about h3 {
+        text-align: center;
+    }
+    .about_text {
+        padding: 0.5em 0 0;
+    }
+    .about_text, .figures_caption {
+        text-align: center;
+    }
+    .people li {
+        width: 100%;
+        height: auto;
+        margin: 2em 0 0;
+    }
+    .figures_caption h2 {
+        font-size: 20pt;
+    }
+    /* form */
+    .form {
+        text-align: center;
+    }
+    /* footer */
+    .footer {
+        padding: 1rem 0;
+    }
+}
+
+/* Mobile (large) */
+@media screen and (min-width:425px) and (max-width:575px) {
+    /* main */
+    main {
+        padding: 0 2rem;
+    }
+    /* header */
+    .links_list {
+        justify-content: center;
+    }
+    .sections_link {
+        display: none;
+    }
+    .title {
+        margin: 0;
+    }
+    .links_list a:hover {
+        background-color: var(--white);
+    }
+    /* model */
+    .architect p {
+        font-size: 20pt;
+        left: 30%;
+        top: 50%;
+    }
+    /* projects */
+    .projects h3 {
+        text-align: center;
+    }
+    .houses_list li {
+        box-shadow: 0 0 5px var(--black);
+        width: 100%;
+    }
+    .houses_list li:hover .images {
+        opacity: 1;
+    }
+    .houses_list img {
+        height: 250px;
+    }
+    .type {
+        padding: 0.25rem 0.5rem;
+    }
+    .buy {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+    .buy a {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    /* about */
+    .about {
+        margin: 2em 0 2em;
+    }
+    .about h3 {
+        text-align: center;
+    }
+    .about_text {
+        padding: 0.5em 0 0;
+    }
+    .about_text, .figures_caption {
+        text-align: center;
+    }
+    .people li {
+        width: 100%;
+        height: auto;
+        margin: 2em 0 0;
+    }
+    .figures_caption h2 {
+        font-size: 20pt;
+    }
+    /* form */
+    .form {
+        text-align: center;
+    }
+    /* footer */
+    .footer {
+        padding: 1rem 0;
+    }
+}
+
+/* Size (small) */
+@media screen and (min-width:576px) and (max-width:767px) {
+    /* main */
+    main {
+        padding: 0 2rem;
+    }
+    /* header */
+    .links_list {
+        justify-content: center;
+    }
+    .sections_link {
+        display: none;
+    }
+    .title {
+        margin: 0;
+    }
+    .links_list a:hover {
+        background-color: var(--white);
+    }
+    /* model */
+    .architect p {
+        font-size: 20pt;
+        left: 35%;
+        top: 50%;
+    }
+    /* projects */
+    .projects h3 {
+        text-align: center;
+    }
+    .houses_list li {
+        box-shadow: 0 0 5px var(--black);
+        width: 100%;
+    }
+    .houses_list li:hover .images {
+        opacity: 1;
+    }
+    .houses_list img {
+        height: 300px;
+    }
+    .type {
+        padding: 0.25rem 0.5rem;
+    }
+    .buy {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+    .buy a {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    /* about */
+    .about {
+        margin: 2em 0 2em;
+    }
+    .about h3 {
+        text-align: center;
+    }
+    .about_text {
+        padding: 0.5em 0 0;
+    }
+    .about_text, .figures_caption {
+        text-align: center;
+    }
+    .people li {
+        width: 49%;
+        height: auto;
+        margin: 2em 0 0;
+    }
+    /* form */
+    .form {
+        text-align: center;
+    }
+    .inputs {
+        width: 85%;
+    }
+    /* footer */
+    .footer {
+        padding: 1rem 0;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:991px) {
+    /* main */
+    main {
+        padding: 0 2rem;
+    }
+    /* header */
+    .links_list a {
+        padding: 5px 15px;
+    }
+    .links_list a:hover {
+        background-color: var(--white);
+    }
+    /* model */
+    .architect {
+        height: 94vh;
+    }
+    .architect p {
+        left: 35%;
+        top: 50%;
+    }
+    /* projects */
+    .projects h3 {
+        text-align: center;
+    }
+    .houses_list li {
+        width: 48%;
+    }
+    .houses_list li:hover .images {
+        opacity: 1;
+    }
+    .houses_list img {
+        height: 250px;
+    }
+    .type {
+        padding: 0.25rem 0.5rem;
+    }
+    .buy {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+    .buy a {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0.5rem 0.75rem;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    /* about */
+    .about {
+        margin: 2em 0 2em;
+    }
+    .about h3 {
+        text-align: center;
+    }
+    .about_text {
+        padding: 0.5em 0 0;
+    }
+    .about_text, .figures_caption {
+        text-align: center;
+    }
+    .people li {
+        width: 49%;
+        height: auto;
+        margin: 2em 0 0;
+    }
+    /* form */
+    .form {
+        text-align: center;
+    }
+    .inputs {
+        width: 90%;
+    }
+}
+
+/* Laptop (medium) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    /* main */
+    main {
+        padding: 0 2rem;
+    }
+    /* header */
+    .architect {
+        height: 95vh;
+    }
+    /* projects */
+    .houses_list li {
+        width: 48%;
+    }
+    .houses_list img {
+        height: 300px;
+    }
+    /* about */
+    .about {
+        margin: 2em 0 2em;
+    }
+    .about_text {
+        padding: 0.5em 0 0;
+        text-align: left;
+    }
+    .figures_caption {
+        text-align: center;
+    }
+    .people li {
+        width: 49%;
+        height: auto;
+        margin: 2em 0 0;
+    }
+}
+
+/* Laptop (large) */
+@media screen and (min-width:1200px) and (max-width:1439px) {
+    /* header */
+    .architect {
+        height: 95vh;
+    }
+    /* projects */
+    .houses_list li {
+        width: 24.5%;
+    }
+}
+
+/* Size (extra_large) */
+@media screen and (min-width:1440px) and (max-width:2559px) {
+
+}
